@@ -9,9 +9,9 @@ public class InicioApp2 {
 	int palabras;
 	final String TEXTO_PALABRAS= "Se han ingresado ";
 	final String TEXTO_FINAL_PALABRAS= " palabras.";
-	static final String TEXTO_PEDIR_CADENA= "Introduzca un conjunto de caracteres:";
 	
-	public InicioApp2(){
+	
+	public InicioApp2(String string){
 		contador = new int[65536];
 		letras = new char[65536];
 		palabras = 1;
@@ -35,10 +35,10 @@ public class InicioApp2 {
 	
 	
 	public static void main(String[] args) {
-		InicioApp2 ia = new InicioApp2();
+		InicioApp2 ia = new InicioApp2("Introduzca un conjunto de caracteres:");
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println(TEXTO_PEDIR_CADENA);
+		System.out.println("Introduzca un conjunto de caracteres:");
 		String cadena = scan.nextLine();
 		
 		
@@ -47,6 +47,29 @@ public class InicioApp2 {
 		System.out.print(ia.textoNumeroPalabras(ContadorPalabras));
 
 	}
+
+
+	public int[] getContador() {
+		return contador;
+	}
+	public void setContador(int[] contador) {
+		this.contador = contador;
+	}
+	public char[] getLetras() {
+		return letras;
+	}
+	public void setLetras(char[] letras) {
+		this.letras = letras;
+	}
+	public int getPalabras() {
+		return palabras;
+	}
+	public void setPalabras(int palabras) {
+		this.palabras = palabras;
+	}
+
+
+	
 	
 
 		
