@@ -20,7 +20,8 @@ import org.junit.jupiter.api.Test;
 		 InicioApp2 test1 = new InicioApp2("marcos el hijo de la alcaldesa...");
 		assertTrue(test1.getPalabras());
 		asserTrue(test1.getContadorP());				
-	}
+	}/*@see test1
+	 	@param getPalabras @param getContador */
 	 @Test
 	 public void test2() {
 			
