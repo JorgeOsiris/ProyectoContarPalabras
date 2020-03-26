@@ -28,7 +28,8 @@ import org.junit.jupiter.api.Test;
 		 InicioApp2 test1 = new InicioApp2("Ningun rey gobierna para siempre hijo mio");
 		assertTrue(test1.getPalabras());
 		asserTrue(test1.getContadorP());				
-	}
+	}/*@see test2
+	 	@param getPalabras @param getContador */
 	 @Test
 	 public void test3() {
 			
