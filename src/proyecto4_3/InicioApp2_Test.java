@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
  */
 
 
- class InicioApp2_Test {
+ public class InicioApp2_Test {
 	 @Test
 	public void test1() {
 		
