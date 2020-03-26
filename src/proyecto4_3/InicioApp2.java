@@ -24,7 +24,8 @@ public class InicioApp2 {
 		contadorP = new int[65536];
 		letras = new char[65536];
 		palabras = 1;
-	}/*@see clase InicioApp2    */	
+	}/*@see clase InicioApp2  
+	   @param contadorP , @param letras, @param int palabras, @param String TEXTO_PALABRAS , @param String TEXTO_FINAL_PALABRAS  */	
 
 	
 	int contarNumeroPalabras(String cadena) {
