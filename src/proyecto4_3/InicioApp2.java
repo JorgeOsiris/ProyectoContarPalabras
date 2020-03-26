@@ -2,6 +2,15 @@ package proyecto4_3;
 import java.lang.reflect.Array;
 import java.util.Scanner;
 
+
+/* clase InicioApp2
+ * @author Jorge Osiris Aguilar Fuertemoreno
+ * @version 1.0
+ * 
+ */
+
+
+
 public class InicioApp2 {
 
 	int [] contadorP;
@@ -25,13 +34,13 @@ public class InicioApp2 {
 			char car = cadena.charAt(i);
 			if (car == ' ' && car2!=' ') {contadorP++;
 			}			
-	}return contadorP;
+	}return contadorP;/*@return contadorP */
 	}
 	
 
 	String textoNumeroPalabras (int contadorP) {
 		return "El total de las palabras son:"+contadorP; 
-	}
+	}/*@return texto final  */
 	
 	
 	public static void main(String[] args) {
@@ -46,7 +55,7 @@ public class InicioApp2 {
 		int[] contadorCaracteres = new int [65536];
 		System.out.print(ia.textoNumeroPalabras(ContadorPalabras));
 
-	}
+	}/*Main en el que preguntamos palabras y operamos     */
 
 
 	public int[] getContadorP() {
