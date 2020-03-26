@@ -24,7 +24,7 @@ public class InicioApp2 {
 		contadorP = new int[65536];
 		letras = new char[65536];
 		palabras = 1;
-	}	
+	}/*@see clase InicioApp2    */	
 
 	
 	int contarNumeroPalabras(String cadena) {
@@ -35,7 +35,7 @@ public class InicioApp2 {
 			if (car == ' ' && car2!=' ') {contadorP++;
 			}			
 	}return contadorP;/*@return contadorP */
-	}/*@param metodo contarNumeroPalabras   */
+	}/*@see metodo contarNumeroPalabras   */
 	
 
 	String textoNumeroPalabras (int contadorP) {
