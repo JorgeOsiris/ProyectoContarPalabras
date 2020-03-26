@@ -22,36 +22,24 @@ public class InicioApp2 {
 	}
 
 	
-	int contarCaracteresTotal(String cadena) {
-		int contador = 0;
-		for(int i = 0; i<cadena.length();i++) {
-			char car = cadena.charAt(i);
-					if (car != ' ') contador++;	
-		}
-		return contador;
-	}
+
+	
 	int contarNumeroPalabras(String cadena) {
 		int contadorP = 0;
 		char car2 = ' ';
 		for(int i = 0; i<cadena.length();i++) {
 			char car = cadena.charAt(i);
 			if (car == ' ' && car2!=' ') {contadorP++;
-			}
-			
-	}return contadorP;}
-	int[ ] contarTodosCaracteres(String cadena) {
-		for (int i = 0;i<cadena.length();i++){ 
-			char car = cadena.charAt(i); 
-			int ascii = car; 
-			contador[ascii]++; 
-			letras[ascii] = car;
-		} return contador ;
+			}			
+	}return contadorP;
 	}
 	
-	String textoCaracteresTotal (int total) {
-		return"El total de los caracteres son: "+total;
 	
-	}
+	
+	
+
+	
+	
 	String textoNumeroPalabras (int total) {
 		return "El total de las palabras son:"+total; 
 	}
@@ -71,25 +59,17 @@ public class InicioApp2 {
 		System.out.println(TEXTO_PEDIR_CADENA);
 		String cadena = scan.nextLine();
 		
-		int contadorCaracteresTotal = ia.contarCaracteresTotal(cadena);
+		
 		int ContadorPalabras = ia.contarNumeroPalabras(cadena);
 		int[] contadorCaracteres = new int [65536];
-		ia.contarTodosCaracteres(cadena);
-		System.out.print(ia.textoCaracteresTotal(contadorCaracteresTotal));
 		System.out.print(ia.textoNumeroPalabras(ContadorPalabras));
-	//	System.out.print(ia.textoTodosCaracteres));
+	
 
 		
 		
 	}
 	
-	/*String textoTodosCaracteres (int [] array) {
-		String resultado = "";
-		for(int i=0 ; i<array.length;i++) {
-			if(array[i]!=0)
-				resultado+=" la letra : "+(char)i+ " se repite :" +array[i]+" veces\n"; 
-		}return resultado;
-	}*/
+
 		
 
 }
