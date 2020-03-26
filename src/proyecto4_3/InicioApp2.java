@@ -35,7 +35,7 @@ public class InicioApp2 {
 			if (car == ' ' && car2!=' ') {contadorP++;
 			}			
 	}return contadorP;/*@return contadorP */
-	}
+	}/*@param metodo contarNumeroPalabras   */
 	
 
 	String textoNumeroPalabras (int contadorP) {
