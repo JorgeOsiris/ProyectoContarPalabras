@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InicioApp2 {
 
-	int [] contador;
+	int [] contadorP;
 	char [] letras;
 	int palabras;
 	final String TEXTO_PALABRAS= "Se han ingresado ";
@@ -12,7 +12,7 @@ public class InicioApp2 {
 	
 	
 	public InicioApp2(String string){
-		contador = new int[65536];
+		contadorP = new int[65536];
 		letras = new char[65536];
 		palabras = 1;
 	}	
@@ -49,11 +49,11 @@ public class InicioApp2 {
 	}
 
 
-	public int[] getContador() {
-		return contador;
+	public int[] getContadorP() {
+		return contadorP;
 	}
-	public void setContador(int[] contador) {
-		this.contador = contador;
+	public void setContadorP(int[] contadorP) {
+		this.contadorP = contadorP;
 	}
 	public char[] getLetras() {
 		return letras;
