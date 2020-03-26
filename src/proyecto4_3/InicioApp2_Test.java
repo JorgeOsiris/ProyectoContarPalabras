@@ -21,6 +21,13 @@ import org.junit.jupiter.api.Test;
 		assertTrue(test1.getPalabras());
 		asserTrue(test1.getContadorP());				
 	}
+	 @Test
+	 public void test3() {
+			
+		 InicioApp2 test1 = new InicioApp2("Deben crear nuevos sueños peliculas rompiendo estilos tradicionales...");
+		assertTrue(test1.getPalabras());
+		asserTrue(test1.getContadorP());				
+	}
 	
 	
 	
