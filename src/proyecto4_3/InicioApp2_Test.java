@@ -6,6 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+/* clase InicioApp2
+ * @author Jorge Osiris Aguilar Fuertemoreno
+ * @version 1.0
+ * 
+ */
+
+
  class InicioApp2_Test {
 	 @Test
 	public void test1() {

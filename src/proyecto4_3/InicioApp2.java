@@ -8,9 +8,6 @@ import java.util.Scanner;
  * @version 1.0
  * 
  */
-
-
-
 public class InicioApp2 {
 
 	int [] contadorP;
